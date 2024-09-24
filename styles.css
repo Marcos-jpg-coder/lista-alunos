@@ -1,0 +1,96 @@
+html, body {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    height: 100%; /* Faz com que o body ocupe 100% da altura */
+    width: 100%; /* Faz com que o body ocupe 100% da largura */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://wallpapers.com/images/hd/pc-background-swwu8ybvoh0d27f0.jpg); 
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+.container {
+    max-width: 800px; /* Defina uma largura máxima para o contêiner */
+    margin: 0 auto; /* Centraliza o contêiner */
+    box-shadow: 0 2px 10px rgba(10, 0, 0, 0.178);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #e6e8eb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Uma cor diferente ao passar o mouse */
+}
+
+#clientesList {
+    margin-top: 20px;
+}
+
+.cliente-info {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+}
+
+
+#alunosList {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: indigo;
+    color: white;
+
+}
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color:indigo;
+    text-decoration: none;
+}
+
+#alunosTable {
+    color: white;
+
+}
